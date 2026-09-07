@@ -27,6 +27,8 @@ namespace StrategyPattern
             rubberDuck.PerformFly();
 
             robotDuck.PerformSwim();
+            robotDuck.SetFlyBehavior(new FlyWithWings());
+            robotDuck.PerformFly(); 
         }
     }
 }

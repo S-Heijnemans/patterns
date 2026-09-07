@@ -19,6 +19,21 @@ namespace StrategyPattern.Ducks
 
         public abstract void Display();
 
+        public void SetQuackBehavior(QuackBehavior quack)
+        {
+            quackBehavior = quack;
+        }
+
+        public void SetFlyBehavior(FlyBehavior fly)
+        {
+            flyBehavior = fly;
+        }
+
+        public void SetSwimBehavior(SwimBehavior swim)
+        {
+            swimBehavior = swim;
+        }
+
         public void PerformQuack()
 
         {
