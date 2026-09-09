@@ -14,7 +14,7 @@ namespace StrategyPattern.Ducks
         public RobotDuck()
         {
             quackBehavior = new RegularQuack();
-            flyBehavior = new FlyWithWings();
+            //flyBehavior = new FlyWithWings();
             swimBehavior = new Dive();
 
         }
